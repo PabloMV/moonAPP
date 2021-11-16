@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "moonapp",
+    "slug": "moonapp",
+    "version": "UNVERSIONED",
+    "orientation": "portrait",
+    "icon": "./assets/splash.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.moonpizzas.food"
+    },
+    "web": {
+      "favicon": "./assets/splash.png"
+    }
+  }
+}
