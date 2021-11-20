@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffc107"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -29,5 +29,16 @@
     "web": {
       "favicon": "./assets/splash.png"
     }
-  }
+  },
+  "plugins": [
+    [
+      "expo-navigation-bar",
+      {
+        "position": "absolute",
+        "visibility": "visible",
+        "behavior": "inset-swipe",
+        "backgroundColor": "#00000080"
+      }
+    ]
+  ]
 }
